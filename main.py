@@ -53,9 +53,9 @@ def oyun():
     clear_terminal()
     print("Wordle oyununa hoş geldiniz!")
     print(f"{kelime_uzunlugu} harfli bir kelimeyi tahmin etmeye çalışın.")
-    print("Doğru harf ve doğru pozisyon: Yeşil")
-    print("Doğru harf ama yanlış pozisyon: Sarı")
-    print("Yanlış harf: Gri")
+    print("Doğru harf ve doğru pozisyon => Yeşil")
+    print("Doğru harf ama yanlış pozisyon => Sarı")
+    print("Yanlış harf => Gri")
     print("\n\n")
 
     while tahmin_hakki > 0:
